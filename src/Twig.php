@@ -26,8 +26,8 @@ class Twig implements IRenderer
     public function __construct($path, array $options = [])
     {
         $this->path = $path;
-        $this->twig = new Twig_Environment(
-            new Twig_Loader_Filesystem($path), $options
+        $this->twig = new \Twig_Environment(
+            new \Twig_Loader_Filesystem($path), $options
         );
     }
     
