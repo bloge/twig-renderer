@@ -1,6 +1,11 @@
 {
     "name": "bloge/twig-renderer",
     "description": "Twig renderer adapter for Bloge",
+    "autoload": {
+        "psr-4": {
+            "Bloge\\Renderers\\": "src/"
+        }
+    },
     "require": {
         "bloge/bloge": "dev-master",
         "twig/twig": "^1.23"
