@@ -1,6 +1,6 @@
 <?php
 
-namespace Bloge\Renders;
+namespace Bloge\Renderers;
 
 /**
  * Twig renderer adapater
