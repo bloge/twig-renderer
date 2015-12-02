@@ -1,0 +1,8 @@
+{
+    "name": "bloge/twig-renderer",
+    "description": "Twig renderer adapter for Bloge",
+    "require": {
+        "bloge/bloge": "dev-master",
+        "twig/twig": "^1.23"
+    }
+}
